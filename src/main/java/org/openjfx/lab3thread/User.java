@@ -27,6 +27,7 @@ public class User{
 
         this.userName = userName;
         this.userPass = password;
+        System.out.println(userName + password);
     }
 
     public String getName(){
